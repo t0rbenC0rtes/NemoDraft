@@ -22,7 +22,7 @@ const App = () => {
 		<>
 			<Hero />
 			{windowWidth >= 900 ? <Navbar /> : <Hamburger />}
-			<Sites />
+			{/* <Sites /> */}
 		</>
 	);
 };
