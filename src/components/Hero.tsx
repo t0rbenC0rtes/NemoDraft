@@ -10,8 +10,11 @@ function Hero() {
 				loop 
 				muted 
 				playsInline
+				webkit-playsinline
 				preload="auto"
 				disablePictureInPicture
+				aria-hidden="true"
+				tabIndex={-1}
 			></video>
 			<div className="main-container">
 				<div className="heroContent">
