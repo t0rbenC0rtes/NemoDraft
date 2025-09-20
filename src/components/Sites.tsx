@@ -4,7 +4,16 @@ import "../styles/Sites.css";
 const Sites = () => {
 	return (
 		<div className="sitesContainer main-container">
-			<video className="sitesVideo" src="../vid/underwaterBackground_1.mp4" autoPlay loop muted></video>            
+			<video 
+				className="sitesVideo" 
+				src="../vid/underwaterBackground_1.mp4" 
+				autoPlay 
+				loop 
+				muted 
+				playsInline
+				preload="auto"
+				disablePictureInPicture
+			></video>            
 			<div className="main-container">
 				<div className="sitesContent">
 					<h1>NOS SITES</h1>

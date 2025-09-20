@@ -3,7 +3,16 @@ import "../styles/Hero.css";
 function Hero() {
 	return (
 		<div className="heroContainer">
-			<video className="heroVideo" src="../vid/heroDiverLoop.mp4" autoPlay loop muted></video>
+			<video 
+				className="heroVideo" 
+				src="../vid/heroDiverLoop.mp4" 
+				autoPlay 
+				loop 
+				muted 
+				playsInline
+				preload="auto"
+				disablePictureInPicture
+			></video>
 			<div className="main-container">
 				<div className="heroContent">
 					<div className="hero-title">THE <br /> ORIGINAL <br /> DEEP DIVING <br /> POOL</div>
