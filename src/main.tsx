@@ -4,7 +4,7 @@ import "./index.css";
 import Hero from "./components/Hero.tsx";
 import Navbar from "./components/Navbar.tsx";
 import Hamburger from "./components/Hamburger.tsx";
-import Sites from "./components/Sites.tsx";
+// import Sites from "./components/Sites.tsx";
 
 const App = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
